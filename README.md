@@ -24,11 +24,17 @@ Data digabungkan menggunakan pustaka **Pandas** di Python. Proses integrasi ini 
 
 ---
 
+# Visualisasi Skema Graf (Ontologi)
+Berikut adalah gambaran skema hubungan antar entitas (Node) dan relasi (Edge) yang terbentuk setelah proses integrasi:
+<img width="412" height="434" alt="visualisation" src="https://github.com/user-attachments/assets/c7062622-4a80-4de9-8c66-950649ee6595" />
+
+---
+
 ## 📊 Analisis Graf (Network Analysis)
 Proyek ini merepresentasikan data medis sebagai graf (Node dan Edge) dan menerapkan analisis algoritma graf menggunakan **Neo4j** (berdasarkan file kueri Cypher).
 
 * **Query Cypher:** `Query_Cypher.csv`
-* **Algoritma yang Diterapkan:** [Tuliskan di sini: misal Jaccard Similarity / PageRank]
+* **Algoritma yang Diterapkan:** Betweenness Centrality, Jaccard Similarity, Louvain Community
 
 ---
 
